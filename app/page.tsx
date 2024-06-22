@@ -21,7 +21,7 @@ const HomePage = () => {
         <section className="mb-8 text-center">
           <h2 className="text-2xl font-semibold">connect with us</h2>
           <p className="mt-2 text-lg">
-            follow us on <a href="https://x.com/neuraleverage" className="text-blue-400 hover:underline">twitter</a> and subscribe to our <a href="https://neuraleverage.beehiiv.com/" className="text-blue-400 hover:underline">newsletter</a>.
+            follow us on <a href="https://x.com/neuralvgai" className="text-blue-400 hover:underline">twitter</a> and subscribe to our <a href="https://neuraleverage.beehiiv.com/" className="text-blue-400 hover:underline">newsletter</a>.
           </p>
         </section>
         <section className="text-center">
