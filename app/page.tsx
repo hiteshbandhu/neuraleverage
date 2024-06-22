@@ -6,16 +6,16 @@ const HomePage = () => {
       <header className="mb-8 text-center">
         <h1 className="text-4xl font-bold text-red-600">neuraleverage</h1>
       </header>
-      <div className='mx-32 justify-center'>
+      <div className="mx-32 justify-center">
         <section className="mb-8 text-center">
           <p className="text-lg">
-            ai startup teams invest significant time and resources poring over research papers to uncover new techniques. it's a tedious and often mundane task. at neuraleverage, we automate this process for you. we believe your valuable time should be focused on driving innovation and progress.
+            ai startup teams invest significant time and resources poring over research papers to uncover new techniques. it&apos;s a tedious and often mundane task. at neuraleverage, we automate this process for you. we believe your valuable time should be focused on driving innovation and progress.
           </p>
         </section>
         <section className="mb-8 text-center">
           <h2 className="text-2xl font-semibold">our mission</h2>
           <p className="mt-2 text-lg">
-            our mission is to simplify the discovery, categorization, and application of research papers for ai startups. we're here to support your journey of creating cutting-edge technologies while we handle the groundwork.
+            our mission is to simplify the discovery, categorization, and application of research papers for ai startups. we&apos;re here to support your journey of creating cutting-edge technologies while we handle the groundwork.
           </p>
         </section>
         <section className="mb-8 text-center">
