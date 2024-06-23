@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 
-const jetbrains = IBM_Plex_Mono({weight : "100", subsets: ["latin"]});
+const jetbrains = IBM_Plex_Mono({weight : "200", subsets: ["latin"]});
 
 export const metadata: Metadata = {
   title: "neuraleverage",
