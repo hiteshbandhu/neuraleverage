@@ -58,7 +58,7 @@ const HomePage = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
-      className="min-h-screen bg-black text-white flex flex-col items-center p-8 sm:p-16 font-ibm-plex-mono"
+      className="min-h-screen bg-black text-white flex flex-col items-center p-4 sm:p-8 md:p-16 font-ibm-plex-mono"
     >
       <motion.div 
         initial={{ opacity: 0, y: 20 }}
@@ -66,7 +66,7 @@ const HomePage = () => {
         exit={{ opacity: 0, y: -20 }}
         transition={{ duration: 0.5 }}
         key={index}
-        className="text-4xl font-light mb-12"
+        className="text-2xl sm:text-3xl md:text-4xl font-light mb-6 sm:mb-8 md:mb-12 text-center"
       >
         {phrases[index]}
       </motion.div>
@@ -74,7 +74,7 @@ const HomePage = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.5, duration: 0.5 }}
-        className="text-2xl mb-8 font-bold"
+        className="text-xl sm:text-2xl mb-4 sm:mb-6 md:mb-8 font-bold text-center"
       >
         We've transformed <span className="text-blue-300">1,000+</span> research papers into <span className="text-blue-300">5,000+</span> interactive quizzes
       </motion.div>
@@ -82,7 +82,7 @@ const HomePage = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.7, duration: 0.5 }}
-        className="text-xl mb-12 font-normal"
+        className="text-base sm:text-lg md:text-xl mb-8 sm:mb-10 md:mb-12 font-normal text-center"
       >
         Leverage our platform to navigate the complexities of AI research through gamified learning experiences.
       </motion.div>
@@ -90,15 +90,15 @@ const HomePage = () => {
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ delay: 0.9, duration: 0.5 }}
-        className="w-full max-w-3xl h-64 mb-8"
+        className="w-full max-w-3xl h-64 sm:h-80 md:h-96 mb-8"
       >
         <ResponsiveContainer width="100%" height="100%">
           <LineChart
             data={technologyTrendsData}
             margin={{
               top: 5,
-              right: 30,
-              left: 20,
+              right: 10,
+              left: 0,
               bottom: 5,
             }}
           >
@@ -118,7 +118,7 @@ const HomePage = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1.1, duration: 0.5 }}
-        className="text-xl mb-8 text-center font-normal"
+        className="text-base sm:text-lg md:text-xl mb-8 text-center font-normal"
       >
         As technological advancements accelerate and research output increases, cognitive load and information overload pose significant challenges to effective learning.
       </motion.div>
@@ -126,15 +126,15 @@ const HomePage = () => {
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ delay: 1.3, duration: 0.5 }}
-        className="w-full max-w-3xl h-64 mb-8"
+        className="w-full max-w-3xl h-64 sm:h-80 md:h-96 mb-8"
       >
         <ResponsiveContainer width="100%" height="100%">
           <BarChart
             data={learningMethodsData}
             margin={{
               top: 5,
-              right: 30,
-              left: 20,
+              right: 10,
+              left: 0,
               bottom: 5,
             }}
           >
@@ -151,7 +151,7 @@ const HomePage = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1.5, duration: 0.5 }}
-        className="text-xl mb-8 text-center font-normal"
+        className="text-base sm:text-lg md:text-xl mb-8 text-center font-normal"
       >
         Our interactive quizzes leverage active learning principles, significantly enhancing retention rates compared to passive learning methods.
       </motion.div>
@@ -159,15 +159,15 @@ const HomePage = () => {
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ delay: 1.7, duration: 0.5 }}
-        className="w-full max-w-3xl h-64 mb-8"
+        className="w-full max-w-3xl h-64 sm:h-80 md:h-96 mb-8"
       >
         <ResponsiveContainer width="100%" height="100%">
           <LineChart
             data={aiPublicationsData}
             margin={{
               top: 5,
-              right: 30,
-              left: 20,
+              right: 10,
+              left: 0,
               bottom: 5,
             }}
           >
@@ -184,7 +184,7 @@ const HomePage = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1.9, duration: 0.5 }}
-        className="text-xl mb-8 text-center font-normal"
+        className="text-base sm:text-lg md:text-xl mb-8 text-center font-normal"
       >
         The exponential growth in AI research publications underscores the need for efficient knowledge dissemination and assimilation strategies.
       </motion.div>
@@ -192,7 +192,7 @@ const HomePage = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 2.1, duration: 0.5 }}
-        className="mt-8 text-sm font-normal"
+        className="mt-4 sm:mt-6 md:mt-8 text-xs sm:text-sm font-normal"
       >
         with ❤️ by @_hiteshbandhu
       </motion.div>
